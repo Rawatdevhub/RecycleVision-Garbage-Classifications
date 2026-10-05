@@ -7,8 +7,8 @@ st.set_page_config(page_title="RecycleVision", page_icon="♻️", layout="cente
 st.title("♻️ RecycleVision")
 st.caption("Garbage image classification with transfer learning")
 
-MODEL_PATH = Path("models/recyclevision.keras")
-LABELS_PATH = Path("models/class_names.json")
+MODEL_PATH = Path("recyclevision.keras")
+LABELS_PATH = Path("class_names.json")
 
 if not MODEL_PATH.exists() or not LABELS_PATH.exists():
     st.error("Model files are missing. Run train.py first and place the outputs in models/.")
