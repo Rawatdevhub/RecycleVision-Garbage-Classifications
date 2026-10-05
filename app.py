@@ -1,7 +1,7 @@
 from pathlib import Path
 import streamlit as st
 from PIL import Image
-from src.predict import load_artifacts, predict_image
+from predict import load_artifacts, predict_image
 
 st.set_page_config(page_title="RecycleVision", page_icon="♻️", layout="centered")
 st.title("♻️ RecycleVision")
