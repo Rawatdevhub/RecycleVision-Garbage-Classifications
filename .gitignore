@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+kaggle.json
+data/
+reports/*.csv
+models/*.keras
+models/*.h5
+models/*.tf
+models/saved_model/
+.streamlit/secrets.toml
